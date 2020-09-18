@@ -1,0 +1,8 @@
+{
+  "path-intellisense.mappings": {
+    "~": "${workspaceRoot}",
+    "~~": "${workspaceRoot}",
+    "@": "${workspaceRoot}",
+    "@@": "${workspaceRoot}"
+  }
+}
