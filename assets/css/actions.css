@@ -1,0 +1,19 @@
+.clickable {
+  @apply cursor-pointer transition-opacity select-none;
+
+  &:active {
+    @apply opacity-60 transition-none;
+  }
+
+  &.text {
+    @apply border-b border-transparent;
+
+    &:hover {
+      @apply border-primary;
+    }
+
+    &.current {
+      @apply text-primary border-primary;
+    }
+  }
+}

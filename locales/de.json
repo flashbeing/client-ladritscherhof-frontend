@@ -1,0 +1,28 @@
+{
+  "header": {
+    "location": "Posizione",
+    "kitchen": "Cucina",
+    "timetable": "Orari"
+  },
+  "home": {
+    "pageTitle": "Ladritscher Hof | Ristorante panoramico nel cuore di Carezza",
+    "pageDescription": "Scopri la cucina tipica Alto Atesina al Ladritscher Hof, splendido ristorante panoramico nel cuore di Carezza. Ideale per famiglie e escursionisti.",
+    "pageKeywords": "ristorante, carezza, hof, maso, famiglia, cucina tipica",
+    "coverTitle": "Specialità altoatesine servite su terrazza soleggiata con splendida vista panoramica.",
+    "locationTitle": "Pranzo e cena con vista mozzaffiato.",
+    "locationDesc": "Goditi un pranzo ammirando il Latemar o una cena il venerdì sera ammirando il tramonto. Il Ladritscher Hof non ti sorprenderà solo per il cibo, ma anche per il magnifico paesaggio di fronte alla sua terrazza panoramica.",
+    "reachUsNow": "Raggiungici adesso",
+    "foodTitle": "Scopri i piatti tipici della cucina Alto Atesina",
+    "foodDesc": "Tutto il menù del Ladritscher Hof è incentrato solo su piatti tipicamente Alto Atesini, tra cui Salumi, Canederli, Uova all'Occhio di Bue con speck e patate, Kaiserschmarrn e altro ancora. Nel periodo autunnale organizziamo anche Törggelen, chiamaci per prenotare il tuo!",
+    "bookNow": "Prenota ora",
+    "fridayTitle": "Il venerdì Grill & Chill sotto le stelle.",
+    "fridayDesc": "Nelle più belle serate estive del venerdì, organizziamo grigliate con falò sotto le stelle. Controlla il nostro orario!"
+  },
+  "footer": {
+    "streetName": "Via Bellavista, 15, 39056 Nova Levante (BZ)",
+    "vat": "P. IVA",
+    "weAreOpenedUpInfo": "In questo periodo siamo aperti:",
+    "dayStart": "LUN",
+    "dayEnd": "VEN"
+  }
+}

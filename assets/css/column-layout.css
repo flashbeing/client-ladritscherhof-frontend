@@ -1,0 +1,32 @@
+.center {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.column-ct {
+  font-size: 0;
+
+  & .column {
+    @apply inline-block align-top w-1/2;
+
+    &.etxended {
+      width: 65%;
+    }
+
+    &.compact {
+      width: 35%;
+    }
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .center {
+    @apply w-auto mx-4;
+  }
+
+  .column-ct {
+    & .column {
+      @apply block w-full mb-4 !important;
+    }
+  }
+}

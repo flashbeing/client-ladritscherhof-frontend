@@ -1,0 +1,49 @@
+/* Generics */
+svg {
+  display: inline-block;
+}
+
+/* Date picker */
+.vdp-datepicker {
+  @apply bg-light-grey text-black text-base rounded w-150 font-medium cursor-pointer;
+
+  width: 125px !important;
+  height: 30px !important;
+  padding: 0 20px 0 20px !important;
+  line-height: 28px;
+  border-radius: 15px !important;
+
+  & input {
+    @apply bg-transparent w-90 cursor-pointer !important;
+
+    &:focus {
+      @apply outline-none;
+    }
+  }
+}
+
+.vdp-datepicker__calendar .cell.selected {
+  @apply bg-primary text-white !important;
+}
+
+.vdp-datepicker__calendar .cell:not(.blank):not(.disabled).day:hover,
+.vdp-datepicker__calendar .cell:not(.blank):not(.disabled).month:hover,
+.vdp-datepicker__calendar .cell:not(.blank):not(.disabled).year:hover {
+  @apply border-primary !important;
+}
+
+.refreshing {
+  @apply pointer-events-none;
+
+  animation: bilnk 1s ease;
+}
+
+/* Top buttons */
+.top-button {
+  @apply rounded-lg text-center bg-cover bg-center;
+
+  width: 45px;
+  height: 45px;
+  line-height: 43px;
+  background-color: #eee;
+}
