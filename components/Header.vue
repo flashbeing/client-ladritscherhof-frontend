@@ -54,13 +54,19 @@ import {
 
 export default {
   mixins: [utils],
+
   data() {
     return {
       GOOGLE_MAPS_URL,
       PHONE_NUMBER,
       FORMATTED_PHONE_NUMBER,
       visibleMenu: false,
-      sections: [
+    };
+  },
+
+  computed: {
+    sections() {
+      return [
         {
           ref: 'location',
           name: this.$t('header.location'),
@@ -73,8 +79,8 @@ export default {
           ref: 'timetable',
           name: this.$t('header.timetable'),
         },
-      ],
-    };
+      ];
+    },
   },
 
   methods: {

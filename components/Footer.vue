@@ -18,8 +18,8 @@
           <a :href="'tel:+' + PHONE_NUMBER" class="mb-3"
             >+39 {{ FORMATTED_PHONE_NUMBER }}</a
           >
-          <p>{{ $t('footer.vat') }}: XXXXXXXXX</p>
-          <p>SDI: XXXXXXXXX</p>
+          <p>{{ $t('footer.vat') }}: 02484590217</p>
+          <!--<p>SDI: XXXXXXXXX</p>-->
           <div class="languages">
             <nuxt-link
               class="language cursor-pointer"
@@ -29,7 +29,7 @@
             >
             <nuxt-link
               class="language cursor-pointer"
-              to="/"
+              to="/de/"
               :class="{ underline: this.$i18n.locale === 'de' }"
               >Deutsch</nuxt-link
             >
@@ -37,9 +37,12 @@
         </div>
         <div id="timetable" class="column timetable">
           <p class="mb-2">{{ $t('footer.weAreOpenedUpInfo') }}</p>
-          <p>
+          <p class="mb-2">
             {{ $t('footer.dayStart') }} - {{ $t('footer.dayEnd') }}: 11:00 -
             18:00
+          </p>
+          <p>
+            {{ $t('footer.restDayInfo') }}
           </p>
         </div>
       </div>

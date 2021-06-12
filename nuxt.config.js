@@ -99,6 +99,10 @@ export default {
     ],
   },
 
+  generate: {
+    routes: ['/de'],
+  },
+
   pageTransition: 'zoom-page',
 
   router: {
