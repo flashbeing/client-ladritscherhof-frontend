@@ -98,6 +98,8 @@ export default {
       /slide-right-enter/,
       /zoom-page-enter/,
       /zoom-page-leave-active/,
+      /pre-show/,
+      /animate-show/,
     ],
   },
 

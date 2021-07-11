@@ -79,7 +79,7 @@
             </a>
           </div>
           <div class="column etxended">
-            <div class="full-image"></div>
+            <div class="full-image fadeable"></div>
           </div>
         </div>
       </div>
