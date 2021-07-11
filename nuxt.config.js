@@ -1,10 +1,11 @@
 export default {
-  mode: 'universal',
+  target: 'static',
+
   /*
    ** Headers of the page
    */
   head: {
-    title: 'MP Tec',
+    title: 'Ladritscherhof',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

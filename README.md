@@ -1,6 +1,6 @@
 # mptec
 
-> MP Tec
+> Ladritscherhof
 
 ## Build Setup
 

@@ -1,6 +1,6 @@
 <!--
   Footer element
-  ©2020 MP Tec - Developed by Matteo Biasi
+  ©2020 Ladritscherhof - Developed by Matteo Biasi
 -->
 <template>
   <footer>
