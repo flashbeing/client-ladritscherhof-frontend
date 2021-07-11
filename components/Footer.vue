@@ -12,8 +12,9 @@
         <div class="column details">
           <h3>Ladritscher Hof</h3>
           <a :href="GOOGLE_MAPS_URL" target="_blank">
-            <div class="info">{{ $t('footer.streetName') }}</div>
+            <div class="info underline">{{ $t('footer.streetName') }} →</div>
           </a>
+          <p class="info my-4 pr-16">{{ $t('footer.streetInfo') }}</p>
           <a href="mailto:info@ladritscherhof.com">info@ladritscherhof.com</a>
           <a :href="'tel:+' + PHONE_NUMBER" class="mb-3"
             >+39 {{ FORMATTED_PHONE_NUMBER }}</a

@@ -32,7 +32,7 @@
           <div class="column compact">
             <h2>{{ $t('home.foodTitle') }}</h2>
             <p>{{ $t('home.foodDesc') }}</p>
-            <a href="'tel:+' + PHONE_NUMBER">
+            <a :href="'tel:+' + PHONE_NUMBER">
               <div class="button contrast clickable">
                 {{ $t('home.bookNow') }}
               </div>
@@ -63,6 +63,38 @@
           <div v-for="index in 3" :key="index" class="star"></div>
         </div>
         <p>{{ $t('home.fridayDesc') }}</p>
+        <div class="image fadeable"></div>
+      </div>
+    </section>
+    <section id="kitchen" class="food">
+      <div class="center">
+        <div class="column-ct">
+          <div class="column compact">
+            <h2>{{ $t('home.specialOccasions') }}</h2>
+            <p>{{ $t('home.specialOccasionsDesc') }}</p>
+            <a :href="'tel:+' + PHONE_NUMBER">
+              <div class="button contrast clickable">
+                {{ $t('home.bookNow') }}
+              </div>
+            </a>
+          </div>
+          <div class="column etxended">
+            <div class="full-image"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="friday" class="friday torggelen">
+      <div class="center">
+        <h2>{{ $t('home.torggelen') }}</h2>
+        <p class="pt-4">{{ $t('home.torggelenDesc') }}</p>
+        <div class="text-center mt-4 mb-16">
+          <a :href="'tel:+' + PHONE_NUMBER">
+            <div class="button contrast clickable">
+              {{ $t('home.bookNow') }}
+            </div>
+          </a>
+        </div>
         <div class="image fadeable"></div>
       </div>
     </section>
@@ -214,6 +246,14 @@ section {
         padding-top: calc(33% - 20px);
       }
     }
+
+    & .full-image {
+      @apply bg-light-grey bg-cover bg-center bg-no-repeat ml-10;
+
+      width: 800px;
+      height: 500px;
+      background-image: url(~assets/image/home/special-occasion.jpg);
+    }
   }
 
   &.friday {
@@ -246,6 +286,14 @@ section {
 
         height: 500px;
         background-image: url(~assets/image/home/friday.jpg);
+      }
+    }
+
+    &.torggelen {
+      & .center {
+        & > .image {
+          background-image: url(~assets/image/home/torggelen.jpg);
+        }
       }
     }
   }
@@ -307,6 +355,10 @@ section {
           margin: 0 10px 10px 0;
           padding-top: calc(50% - 10px);
         }
+      }
+
+      & .full-image {
+        @apply ml-0 mt-16;
       }
     }
 

@@ -16,8 +16,9 @@
           >
             {{ section.name }}
           </div>
-          <a :href="'https://wa.me/' + PHONE_NUMBER" target="_blank">
-            <div class="whatsapp-bt">
+          <!-- 'https://wa.me/' + PHONE_NUMBER -->
+          <a :href="'tel:+' + PHONE_NUMBER">
+            <div class="whatsapp-bt clickable">
               <div class="logo"></div>
               <div class="number">{{ FORMATTED_PHONE_NUMBER }}</div>
             </div>
@@ -149,13 +150,15 @@ header {
     line-height: 50px;
 
     & > .logo {
-      @apply absolute bg-contain bg-center bg-no-repeat;
+      @apply absolute bg-center bg-no-repeat bg-white;
 
-      top: 5px;
+      top: 3px;
       left: -20px;
       width: 40px;
       height: 40px;
-      background-image: url(~assets/icons/whatsapp.svg);
+      background-image: url(~assets/icons/phone-call.svg);
+      background-size: 85% auto;
+      border-radius: 50%;
     }
   }
 }

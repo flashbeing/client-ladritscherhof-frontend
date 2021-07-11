@@ -63,6 +63,7 @@ export default {
    */
   modules: [
     '@nuxtjs/dotenv',
+    '@nuxtjs/redirect-module',
     // '@nuxtjs/apollo',
     /*
     [
@@ -114,4 +115,6 @@ export default {
   env: {
     GOOGLE_MAPS_API_KEY: 'AIzaSyDjc1PxyB0aTXAnO5XfWGud5fPoNGNSRO4',
   },
+
+  redirect: [{ from: '^/menu', to: '/pdf/menu.pdf' }],
 };
