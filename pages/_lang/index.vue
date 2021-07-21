@@ -32,11 +32,13 @@
           <div class="column compact">
             <h2>{{ $t('home.foodTitle') }}</h2>
             <p>{{ $t('home.foodDesc') }}</p>
-            <a :href="'tel:+' + PHONE_NUMBER">
+            <nuxt-link
+              :to="($i18n.locale !== 'it' ? '/' + $i18n.locale : '') + '/menu'"
+            >
               <div class="button contrast clickable">
-                {{ $t('home.bookNow') }}
+                {{ $t('home.menu') }} →
               </div>
-            </a>
+            </nuxt-link>
           </div>
           <div class="column etxended">
             <div class="image-grid">
