@@ -104,7 +104,7 @@ export default {
   },
 
   generate: {
-    routes: ['/de'],
+    routes: ['/de', '/menu'],
   },
 
   pageTransition: 'zoom-page',
