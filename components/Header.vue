@@ -23,6 +23,21 @@
               <div class="number">{{ FORMATTED_PHONE_NUMBER }}</div>
             </div>
           </a>
+          <div class="lang-selector">
+            <nuxt-link
+              class="language cursor-pointer"
+              to="/"
+              :class="{ underline: this.$i18n.locale === 'de' }"
+              >DE</nuxt-link
+            >
+            |
+            <nuxt-link
+              class="language cursor-pointer"
+              to="/it/"
+              :class="{ underline: this.$i18n.locale === 'it' }"
+              >IT</nuxt-link
+            >
+          </div>
         </nav>
         <div
           class="nav_bt clickable"
@@ -118,6 +133,18 @@ header {
       background-image: url(~assets/image/logo.png);
       background-position: left center;
     }
+
+    & .lang-selector {
+      @apply mr-0 ml-4;
+
+      & > .language {
+        @apply mr-2;
+      }
+
+      &:hover {
+        @apply no-underline;
+      }
+    }
   }
 
   & .nav-ct {
@@ -128,7 +155,7 @@ header {
     @apply inline-block align-top font-medium text-white;
 
     & > div {
-      @apply inline-block mr-12 text-base align-top;
+      @apply inline-block mr-6 text-base align-top;
 
       line-height: 48px;
 
@@ -177,6 +204,10 @@ header {
         height: 64px;
         margin-top: -3px;
         background-image: url(~assets/image/logo_black.png);
+      }
+
+      & .lang-selector {
+        @apply ml-0;
       }
     }
 

@@ -25,14 +25,14 @@
             <nuxt-link
               class="language cursor-pointer"
               to="/"
-              :class="{ underline: this.$i18n.locale === 'it' }"
-              >Italiano</nuxt-link
+              :class="{ underline: this.$i18n.locale === 'de' }"
+              >Deutsch</nuxt-link
             >
             <nuxt-link
               class="language cursor-pointer"
-              to="/de/"
-              :class="{ underline: this.$i18n.locale === 'de' }"
-              >Deutsch</nuxt-link
+              to="/it/"
+              :class="{ underline: this.$i18n.locale === 'it' }"
+              >Italiano</nuxt-link
             >
           </div>
         </div>
