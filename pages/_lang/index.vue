@@ -155,8 +155,8 @@ export default {
     sliderImages() {
       const images = [];
 
-      new Array(this.SLIDER_IMAGES_NUM).fill(1).forEach((value, index) => {
-        images.push('/gallery/img-' + index + '.jpeg');
+      new Array(this.SLIDER_IMAGES_NUM - 1).fill(1).forEach((value, index) => {
+        images.push('/gallery/img-' + (index + 1) + '.jpeg');
       });
 
       return images;
