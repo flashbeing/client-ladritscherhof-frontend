@@ -119,7 +119,7 @@ export default {
 
 <style lang="postcss" scoped>
 header {
-  @apply h-24 font-semibold select-none fixed top-0 left-0 right-0 z-10;
+  @apply h-24 font-semibold select-none fixed top-0 left-0 right-0 z-20;
 
   background-color: rgba(179, 173, 157, 0.7);
 

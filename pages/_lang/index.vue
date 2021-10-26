@@ -5,6 +5,16 @@
 <template>
   <div class="overflow-hidden">
     <section class="main">
+      <div class="gallery-ct">
+        <client-only>
+          <vue-flux
+            ref="slider"
+            :options="sliderOptions"
+            :images="sliderImages"
+            :transitions="sliderTransitions"
+          />
+        </client-only>
+      </div>
       <h1>{{ $t('home.coverTitle') }}</h1>
       <div class="scroll-ico">
         <div class="ico clickable" @click="scrollTo('location')"></div>
@@ -104,6 +114,8 @@
 </template>
 
 <script>
+import { VueFlux } from 'vue-flux/dist-ssr/vue-flux.umd.min.js';
+import 'vue-flux/dist-ssr/vue-flux.css';
 import scrollAnimator from '~/mixins/scrollAnimator.js';
 import utils from '~/mixins/utils.js';
 
@@ -114,7 +126,12 @@ import {
 } from '~/config.js';
 
 export default {
+  components: {
+    VueFlux,
+  },
+
   mixins: [scrollAnimator, utils],
+
   data() {
     return {
       GOOGLE_MAPS_URL,
@@ -123,7 +140,27 @@ export default {
       ANIMABLE_ELEMENTS: {
         fadeable: 'animateShow',
       },
+      SLIDER_IMAGES_NUM: 31,
+
+      sliderOptions: {
+        autoplay: true,
+        delay: 2000,
+        lazyLoadAfter: 1,
+      },
+      sliderTransitions: ['kenburn'],
     };
+  },
+
+  computed: {
+    sliderImages() {
+      const images = [];
+
+      new Array(this.SLIDER_IMAGES_NUM).fill(1).forEach((value, index) => {
+        images.push('/gallery/img-' + index + '.jpeg');
+      });
+
+      return images;
+    },
   },
 
   mounted() {
@@ -186,13 +223,25 @@ section {
   @apply py-24;
 
   &.main {
-    @apply relative bg-cover bg-center bg-no-repeat mb-4;
+    @apply relative bg-cover bg-center bg-no-repeat bg-grey mb-4;
 
     height: 90vh;
-    background-image: url(~assets/image/home/cover.jpg);
+    background-image: url(/gallery/img-1.jpeg);
+
+    & .gallery-ct {
+      @apply absolute top-0 left-0 w-full h-full;
+
+      & .vue-flux {
+        @apply h-full !important;
+
+        & .flux-image {
+          @apply h-full bg-cover !important;
+        }
+      }
+    }
 
     & > h1 {
-      @apply absolute text-4xl text-white text-center;
+      @apply absolute text-4xl text-white text-center z-10;
 
       bottom: 90px;
       left: 50%;
@@ -330,7 +379,7 @@ section {
 
     &.main {
       & > h1 {
-        @apply w-auto ml-0 text-xl left-0 px-4;
+        @apply w-full ml-0 text-xl left-0 px-4;
 
         bottom: 30px;
       }
