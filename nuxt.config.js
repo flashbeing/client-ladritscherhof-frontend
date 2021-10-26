@@ -100,6 +100,8 @@ export default {
       /zoom-page-leave-active/,
       /pre-show/,
       /animate-show/,
+      /flux/,
+      /flux-transition/,
     ],
   },
 
