@@ -147,7 +147,7 @@ export default {
         delay: 2000,
         lazyLoadAfter: 1,
       },
-      sliderTransitions: ['fase'], // Was kenburn > Removed due poor performance
+      sliderTransitions: ['fade'], // Was kenburn > Removed due poor performance
     };
   },
 
