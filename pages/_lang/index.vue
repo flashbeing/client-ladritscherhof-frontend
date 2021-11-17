@@ -24,7 +24,7 @@
       <div class="center">
         <div class="column-ct">
           <div class="column etxended">
-            <div class="image fadeable"></div>
+            <div class="image"></div>
           </div>
           <div class="column compact">
             <h2>{{ $t('home.locationTitle') }}</h2>
@@ -378,6 +378,8 @@ section {
     @apply py-16;
 
     &.main {
+      height: 80vw;
+
       & > h1 {
         @apply w-full ml-0 text-xl left-0 px-4;
 
