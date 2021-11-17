@@ -231,6 +231,8 @@ section {
     & .gallery-ct {
       @apply absolute top-0 left-0 w-full h-full;
 
+      z-index: 1;
+
       & .vue-flux {
         @apply h-full !important;
 

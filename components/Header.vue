@@ -192,7 +192,7 @@ header {
 
 @media only screen and (max-width: 980px) {
   header {
-    @apply fixed bg-white h-16 mt-0 w-full z-10;
+    @apply fixed bg-white h-16 mt-0 w-full;
 
     & > .center {
       margin: 0;
@@ -212,7 +212,7 @@ header {
     }
 
     & nav {
-      @apply fixed right-0 bottom-0 left-0 bg-white text-center text-black hidden;
+      @apply fixed right-0 bottom-0 left-0 bg-white text-center text-black hidden pt-8;
 
       top: 60px;
 
