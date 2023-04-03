@@ -278,7 +278,7 @@ section {
 
       width: 1200px;
       height: 500px;
-      background-image: url(~assets/image/home/location.jpg);
+      background-image: url(~assets/image/home/good-taste.jpg);
     }
   }
 
@@ -305,7 +305,7 @@ section {
 
       width: 800px;
       height: 500px;
-      background-image: url(~assets/image/home/special-occasion.jpg);
+      background-image: url(~assets/image/home/special-occasion-2.jpg);
     }
   }
 
@@ -338,7 +338,7 @@ section {
         @apply bg-light-grey bg-cover bg-center bg-no-repeat mt-8;
 
         height: 500px;
-        background-image: url(~assets/image/home/friday.jpg);
+        background-image: url(~assets/image/home/under-stars.jpg);
       }
     }
 

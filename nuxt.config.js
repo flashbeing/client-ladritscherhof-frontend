@@ -33,7 +33,7 @@ export default {
    */
   css: [
     '@/assets/css/actions.css',
-    '@/assets/css/mptec.css',
+    '@/assets/css/ladritscherhof.css',
     '@/assets/css/column-layout.css',
     '@/assets/css/animations.css',
   ],
