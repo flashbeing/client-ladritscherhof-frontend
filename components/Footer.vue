@@ -42,6 +42,14 @@
             {{ $t('footer.dayStart') }} - {{ $t('footer.dayEnd') }}: 11:00 -
             18:00
           </p>
+          <p class="mb-2">
+            {{
+              $t('footer.hotCookingFromTo', {
+                startTime: '12:00',
+                endTime: '16:00',
+              })
+            }}
+          </p>
           <p>
             {{ $t('footer.restDayInfo') }}
           </p>
