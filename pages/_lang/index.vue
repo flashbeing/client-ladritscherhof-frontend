@@ -42,13 +42,13 @@
           <div class="column compact">
             <h2>{{ $t('home.foodTitle') }}</h2>
             <p>{{ $t('home.foodDesc') }}</p>
-            <!--<nuxt-link
+            <nuxt-link
               :to="($i18n.locale !== 'it' ? '/' + $i18n.locale : '') + '/menu'"
             >
               <div class="button contrast clickable">
                 {{ $t('home.menu') }} →
               </div>
-            </nuxt-link>-->
+            </nuxt-link>
           </div>
           <div class="column etxended">
             <div class="image-grid">
