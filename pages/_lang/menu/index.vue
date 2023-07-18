@@ -11,7 +11,7 @@
 <script>
 export default {
   mounted() {
-    window.location = '/pdf/menu.pdf';
+    window.location = '/pdf/menu-' + this.$i18n.locale + '.pdf';
   },
 };
 </script>
