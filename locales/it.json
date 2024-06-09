@@ -16,12 +16,13 @@
     "foodTitle": "Scopri i piatti tipici della cucina Alto Atesina",
     "foodDesc": "Tutto il menù del Ladritscher Hof è incentrato solo su piatti tipicamente Alto Atesini, tra cui Salumi, Canederli, Uova all'Occhio di Bue con speck e patate, Kaiserschmarrn e altro ancora. Nel periodo autunnale organizziamo anche Törggelen, chiamaci per prenotare il tuo!",
     "bookNow": "Prenota ora",
-    "fridayTitle": "Il venerdi Grill & Chill sotto le stelle.",
+    "fridayTitle": "Il venerdi Grill & Chill",
+    "fridayTitleSub": "sotto le stelle",
     "fridayDesc": "Il venerdì sera celebriamo l'estate... Ottime bevande e buona musica, specialità di carne appena uscita dall'affumicatore e una selezione di piatti vegetariani trasformeranno la vostra cena in un'esperienza unica.",
     "specialOccasions": "Occasioni speciali",
     "specialOccasionsDesc": "State cercando la location ideale per la vostra festa? Siamo lieti di organizzare la vostra festa di compleanno, riunioni, feste aziendali, feste in famiglia o semplicemente una serata intima con un gruppo di amici.",
     "torggelen": "L'autunno è tempo di Törggelen",
-    "torggelenDesc": "Non appena cadono le prime castagne e nelle cantine è pronto il vino novello, anche il maso Ladritscher Hof apre le porte della sua tradizionale stube contadina. Prenotate il vostro gustoso menu autunnale composto da un piatto tipico della cucina contadina a base di carne e contorni (Schlachtplatte), mezzelune (Schlutzkrapfen) fatte in casa e salsicce fresche del contadino/della casa."
+    "torggelenDesc": "Non appena cadono le prime castagne e nelle cantine è pronto il vino novello, anche il maso Ladritscher Hof apre le porte della sua tradizionale stube contadina. Prenotate il vostro gustoso menu autunnale composto da un piatto tipico della cucina contadina a base di carne e contorni, mezzelune fatte in casa e salsicce fresche del contadino."
   },
   "footer": {
     "streetName": "Via Bellavista, 15, 39056 Nova Levante (BZ)",
@@ -31,6 +32,6 @@
     "hotCookingFromTo": "Cucina calda dalle ore {startTime} alle ore {endTime}.",
     "dayStart": "LUN",
     "dayEnd": "DOM",
-    "restDayInfo": "Giovedì giorno di riposo. Aperti 7 giorni su 7 dal 01/08/2023 fino al 31/08/2023."
+    "restDayInfo": "Giovedì giorno di riposo. Aperti 7 giorni su 7 dal 01/08/2024 fino al 31/08/2024."
   }
 }

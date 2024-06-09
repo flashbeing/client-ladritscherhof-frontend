@@ -16,12 +16,13 @@
     "foodTitle": "Entdecke mit uns die Südtiroler Küche!",
     "foodDesc": "",
     "bookNow": "Jetzt Buchen",
-    "fridayTitle": "Grill & Chill - der etwas andere Grillabend.",
+    "fridayTitle": "Grill & Chill -",
+    "fridayTitleSub": " der etwas andere Grillabend",
     "fridayDesc": "Jeden Freitag Abend feiern wir den Sommer… Coole Drinks bei guter Musik, feinste Fleischspezialitäten vom Smoker und eine Auswahl an vegetarischen Gerichten machen dein Abendessen zum Erlebnis!",
     "specialOccasions": "Spezielle Anlässe",
     "specialOccasionsDesc": "Du suchst eine Location für deine Feier? Wir organisieren gerne deinen Geburtstag, Jahrgangstreffen, Betriebsfeier, Familienfest oder einfach nur einen gemütlichen Abend mit einer Gruppe von Freunden.",
     "torggelen": "Herbstzeit ist Törggelezeit",
-    "torggelenDesc": "Sobald die ersten Kastanien reifen und der frische Wein in den Kellern bereit steht, ist auch am Ladritscher Hof die Zeit gekommen um die urige Bauernstube zu öffnen. Reservier dein schmackhaftes Herbstmenü bei uns mit typischer Schlachtplatte, hausgemachten Schlutzkrapfen und frischen Bauernwürsten/Hauswürsten."
+    "torggelenDesc": "Sobald die ersten Kastanien reifen und der frische Wein in den Kellern bereit steht, ist auch am Ladritscher Hof die Zeit gekommen um die urige Bauernstube zu öffnen. Reservier dein schmackhaftes Herbstmenü bei uns mit typischer Schlachtplatte, hausgemachten Schlutzkrapfen und frischen Hauswürsten."
   },
   "footer": {
     "streetName": "Schönblickweg 15, 39056 Welschnofen (BZ)",
@@ -31,6 +32,6 @@
     "hotCookingFromTo": "Warme Küche von {startTime} bis {endTime} Uhr.",
     "dayStart": "MO",
     "dayEnd": "SO",
-    "restDayInfo": "Donnerstag Ruhetag. Durchgehend geöffnet vom 01/08/2023 bis 31/08/2023."
+    "restDayInfo": "Donnerstag Ruhetag. Durchgehend geöffnet vom 01/08/2024 bis 31/08/2024."
   }
 }

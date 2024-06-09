@@ -71,6 +71,7 @@
     <section id="friday" class="friday">
       <div class="center">
         <h2>{{ $t('home.fridayTitle') }}</h2>
+        <h2>{{ $t('home.fridayTitleSub') }}</h2>
         <div class="stars-list">
           <div v-for="index in 3" :key="index" class="star"></div>
         </div>
