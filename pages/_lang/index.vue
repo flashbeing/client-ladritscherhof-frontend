@@ -43,7 +43,10 @@
             <h2>{{ $t('home.foodTitle') }}</h2>
             <p>{{ $t('home.foodDesc') }}</p>
             <nuxt-link
-              :to="($i18n.locale !== 'de' ? '/' + $i18n.locale : '') + '/menu'"
+              :to="
+                ($i18n.locale !== 'de' ? '/' + $i18n.locale : '') +
+                  '/menu?localized=1'
+              "
             >
               <div class="button contrast clickable">
                 {{ $t('home.menu') }} →
