@@ -16,7 +16,7 @@
           </a>
           <p class="info my-4 pr-16">{{ $t('footer.streetInfo') }}</p>
           <a href="mailto:info@ladritscherhof.com">info@ladritscherhof.com</a>
-          <a :href="'tel:+' + PHONE_NUMBER" class="mb-3"
+          <a :href="'tel:+39' + PHONE_NUMBER" class="mb-3"
             >+39 {{ FORMATTED_PHONE_NUMBER }}</a
           >
           <p>{{ $t('footer.vat') }}: 02484590217</p>

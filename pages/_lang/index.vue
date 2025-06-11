@@ -88,7 +88,7 @@
           <div class="column compact">
             <h2>{{ $t('home.specialOccasions') }}</h2>
             <p>{{ $t('home.specialOccasionsDesc') }}</p>
-            <a :href="'tel:+' + PHONE_NUMBER">
+            <a :href="'tel:+39' + PHONE_NUMBER">
               <div class="button contrast clickable">
                 {{ $t('home.bookNow') }}
               </div>
@@ -105,7 +105,7 @@
         <h2>{{ $t('home.torggelen') }}</h2>
         <p class="pt-4">{{ $t('home.torggelenDesc') }}</p>
         <div class="text-center mt-4 mb-16">
-          <a :href="'tel:+' + PHONE_NUMBER">
+          <a :href="'tel:+39' + PHONE_NUMBER">
             <div class="button contrast clickable">
               {{ $t('home.bookNow') }}
             </div>

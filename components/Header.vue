@@ -17,7 +17,7 @@
             {{ section.name }}
           </div>
           <!-- 'https://wa.me/' + PHONE_NUMBER -->
-          <a :href="'tel:+' + PHONE_NUMBER">
+          <a :href="'tel:+39' + PHONE_NUMBER">
             <div class="whatsapp-bt clickable">
               <div class="logo"></div>
               <div class="number">{{ FORMATTED_PHONE_NUMBER }}</div>
